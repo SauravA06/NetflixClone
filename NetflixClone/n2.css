@@ -1,0 +1,144 @@
+* {
+    padding: 5px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#bgimg1 {
+    background-image: url(Netflixbg.jpg);
+    background-size: cover;
+    margin: -10px;
+}
+
+nav {
+    position: relative;
+    justify-content: center;
+}
+
+
+/* #bgimg1 {
+    margin: 0;
+    background-image: url(Netflixbg.jpg);
+} */
+
+#logo1 {
+    padding-left: 2vw;
+    width: 12vw;
+}
+
+#lang {
+    width: 10px;
+    padding-left: 60vw;
+}
+
+#lngim {
+    width: 15px;
+}
+
+#lang1 {
+    color: white;
+    border: 0.1px solid rgb(79, 78, 78);
+    background-color: rgba(31, 31, 31, 0.59);
+    font-weight: bold;
+    padding: 5px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+#signin {
+    background-color: rgb(237, 36, 36);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 75px;
+    padding: 4px;
+}
+
+#cont1 {
+    padding-top: 160px;
+}
+
+#cont2 {}
+
+#ch1 {
+    font-size: 70px;
+}
+
+#e1 {
+    background-color: rgba(31, 31, 31, 0.59);
+    padding: 6px;
+    width: 25vw;
+    height: 8vh;
+    border: 0.1px solid rgb(79, 78, 78);
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#bt1 {
+    padding: 2px;
+    width: 15vw;
+    height: 8vh;
+    background-color: rgb(236, 15, 15);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 0.5vw;
+}
+
+#c1 {
+    height: 40vh;
+    border-radius: 14px;
+    background-image: linear-gradient(to bottom right, rgb(12, 12, 60), rgb(33, 2, 60), rgb(40, 7, 40));
+}
+
+#tab {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    background-color: black;
+}
+
+th {
+    padding-left: 0.7vw;
+    height: 10vh;
+}
+
+tr {}
+
+a {
+    color: white;
+}
+
+td {
+    font-weight: 400;
+    font-size: small;
+    width: 70vw;
+}
+
+.accordion-item {
+    width: 65vw;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 455px) {
+    body {
+        background-color: red;
+    }
+}
